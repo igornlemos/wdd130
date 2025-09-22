@@ -16,12 +16,6 @@ nav a {
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    align-items: center;
-    text-align: justify;
-    margin: 0 15px 0 15px;
     max-width: 840px;
 }
 
@@ -32,6 +26,7 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 h1 {
@@ -40,12 +35,8 @@ h1 {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside img{
@@ -53,7 +44,13 @@ aside img{
     height: auto;
 }
 
-p{
+aside h2 {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+}
+
+aside p{
     padding: 0;
 }
 
