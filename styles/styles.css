@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html, body {
     height: 100vh;
     margin: 0;
@@ -19,7 +25,7 @@ nav {
     gap: 12px;
 }
 
-img {
+main img {
     border-radius: 100px;
 }
 
@@ -32,9 +38,40 @@ main {
     margin: 0 15px 0 15px;
 }
 
-footer {
-    margin-top: auto;
-    display: flex;
-    justify-content: center;
+
+
+aside {
+  width: 20rem;
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.2);
+  padding: 1rem;
+  background-color: #eee;
+  color: #333;
+  text-align: center;
 }
 
+aside img{
+    width: 200px;
+    height: auto;
+}
+
+p{
+    padding: 0;
+}
+
+
+footer {
+  margin-top: 15px;
+  border-top: 1px solid #000;
+  text-align: center;
+}
+
+/* Class Selectors */
+
+.box {
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 10%);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
+}
