@@ -27,10 +27,20 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
+    margin: 0 10px 0 30px;
+}
+
+main p{
+    margin: 20px;
 }
 
 h1 {
     color: darkblue;
+    margin: 20px 30px;
+}
+
+li {
+    margin-left: 20px;
 }
 
 aside {
@@ -63,6 +73,7 @@ footer {
 /* Class Selectors */
 
 .box {
+    width: 20rem;
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 1rem;
