@@ -113,7 +113,6 @@ section {
 
 .history {
     display: grid;
-    grid-template-rows: 2;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0;
     align-items: start;
