@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact Whitewater Rafting for reservations, inquiries, and information about our rafting adventures.">
+    <meta name="author" content="Igor Neres Lemos">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Contact Us - Whitewater Rafting</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/z-wwr-crossedoars.png" alt="Whitewater Rafting Logo">
+        <nav aria-label="Site menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-hero">
+            <h1>Contact Us</h1>
+            <p>We're here to help plan your next adventure!</p>
+        </section>
+
+        <section class="contact-info">
+            <h2>Company Information</h2>
+            <div class="info-container">
+                <div class="contact-details">
+                    <div class="detail-item">
+                        <h3>Address</h3>
+                        <p>123 River Road<br>
+                            Adventure Valley, AV 12345<br>
+                            United States</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Phone</h3>
+                        <p>Office: (555) 123-4567<br>
+                            Reservations: (555) 123-4568<br>
+                            Emergency: (555) 123-4569</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3>Email</h3>
+                        <p>info@whitewaterrafting.com<br>
+                            reservations@whitewaterrafting.com<br>
+                            support@whitewaterrafting.com</p>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11604.928731008637!2d79.07038686977542!3d43.3512537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3880b686240d87b5%3A0x85b1a465e609efa0!2sC%C3%A2nion%20de%20Charyn!5e0!3m2!1spt-BR!2sbr!4v1760663466707!5m2!1spt-BR!2sbr"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <div class="employee-grid">
+                <figure class="employee">
+                    <img src="images/employee3.jpg" alt="Sarah Johnson, Lead River Guide">
+                    <figcaption>
+                        <strong>Sarah Johnson</strong><br>
+                        Lead River Guide
+                    </figcaption>
+                </figure>
+                <figure class="employee">
+                    <img src="images/employee1.jpg" alt="Mike Davis, Safety Director">
+                    <figcaption>
+                        <strong>Mike Davis</strong><br>
+                        Safety Director
+                    </figcaption>
+                </figure>
+                <figure class="employee">
+                    <img src="images/employee2.jpg" alt="Taylor Swan, Operations Manager">
+                    <figcaption>
+                        <strong>Taylor Swan</strong><br>
+                        Operations Manager
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="submit_form.php" method="post">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <fieldset class="form-group">
+                    <legend>Purpose of Message:</legend>
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="purpose" value="general" required>
+                            General Inquiry
+                        </label>
+                        <label>
+                            <input type="radio" name="purpose" value="reservation">
+                            Reservation Question
+                        </label>
+                        <label>
+                            <input type="radio" name="purpose" value="suggestion">
+                            Website Suggestion
+                        </label>
+                    </div>
+                </fieldset>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <label>
+                        <input type="checkbox" name="newsletter" value="yes">
+                        Please subscribe me to the monthly newsletter
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Whitewater Rafting | Igor Neres Lemos</p>
+        <nav class="socialmedia" aria-label="Related links">
+            <a href="https://facebook.com">
+                <img src="images/facebook-square.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin-square.svg" alt="LinkedIn Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram-square.svg" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
